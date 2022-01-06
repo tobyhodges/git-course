@@ -2,6 +2,21 @@
 layout: page
 title: Setup
 ---
+
+relative_root_path: {{ relative_root_path }}
+
+page.root: {{ page.root }}
+
+site.url: {{ site.url }}
+
+site.baseurl: {{ site.baseurl }}
+
+page.url: {{ page.url }}
+
+{{ relative_root_path }}{% link _episodes/08-remote.md %}/#set-up-ssh-keys
+
+[test link][set up SSH keys]
+
 ## Files
 There are no files required for this lesson. You will create all the files needed.
 
