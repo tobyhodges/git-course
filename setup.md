@@ -13,7 +13,7 @@ site.baseurl: {{ site.baseurl }}
 
 page.url: {{ page.url }}
 
-{{ relative_root_path }}{% link _episodes/08-remote.md %}/#set-up-ssh-keys
+% link %: {% link _episodes/08-remote.md %}
 
 [test link][set up SSH keys]
 
@@ -55,4 +55,4 @@ Hi yourusername! You've successfully authenticated, but GitHub does not provide 
 Please get in touch before the course starts if you run into any problems with set up.
 
 [GitHub]: https://github.com/
-[set up SSH keys]: {{ page.root }}{% link _episodes/08-remote.md %}/#set-up-ssh-keys
+[set up SSH keys]: {{ page.root }}{% link _episodes/08-remote.md %}#set-up-ssh-keys
